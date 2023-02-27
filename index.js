@@ -22,7 +22,7 @@ app.use(
 // use cors to allow cross origin resource sharing from all domains
 app.use(cors(
     {
-        origin: "*",
+        origin: "https://adminpanel-189c0.web.app"
     }
 ));
 
